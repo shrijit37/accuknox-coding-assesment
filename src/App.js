@@ -4,7 +4,7 @@ import Dashboard from './Dashboard.js';
 function App() {
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Dashboard/>
     </>
   );
