@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   cloudAccounts: true,
-  cloudAccountsRiskAssessments: false,
+  cloudAccountsRiskAssessments: true,
 };
 
 const checkboxSlice = createSlice({

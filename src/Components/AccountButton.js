@@ -11,6 +11,10 @@ import Tooltip from '@mui/material/Tooltip';
 import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+
+
+
 
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -24,7 +28,7 @@ export default function AccountMenu() {
   return (
     <React.Fragment>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-        <Typography sx={{ minWidth: 10 }}>Notifications</Typography>
+        <Typography sx={{ minWidth: 10 }}><NotificationsNoneIcon/></Typography>
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}
