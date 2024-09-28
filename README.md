@@ -1,4 +1,4 @@
-##Accessible At : import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+##Accessible At : https://accuknox-submission.netlify.app/
 
 ### Steps to run:
 ```
